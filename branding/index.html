@@ -346,6 +346,20 @@
             "transform: translateX(1000px) scale(0); opacity: 0; border-radius: 40%;"
           );
         });
+        $('.sections .links-container .link').mouseover(function(){
+                $('.sections .linkscontainer').css('margin-top','26px');
+                $(this).animate({
+                    fontSize:'18px',
+                    fontWeight:700
+                },200);
+            });
+            $('.sections .links-container .link').mouseout(function(){
+                $('.sections .linkscontainer').css('margin-top','30px');
+                $(this).animate({
+                    fontSize:'16px',
+                    fontWeight:300
+                },200);
+            });
       });
     </script>
   </body>

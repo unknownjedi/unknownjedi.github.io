@@ -170,7 +170,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section">
+            <!-- <div class="section">
                 <div id="ourworks" class="css-19n8dzb-OurWorksContainer ebr2o4i7">
                     <h3 class="section-indicator wow fadeInRight  css-10etncm-SectionIndicator" data-wow-duration="0.5s"
                         style="visibility: visible; animation-duration: 0.5s; animation-name: fadeInRight;">Latest Projects</h3>
@@ -441,7 +441,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="section fp-auto-height">
                 <div class="css-qgqxoi-FooterContainer ebr2o4i4" id="footer-section">
                     <div class="content">
@@ -568,8 +568,23 @@
                 $('.css-1ctzn0j-Menu').attr('style', 'transform: translateX(1000px) scale(0); opacity: 0; border-radius: 40%;')
             });
 
+            $('.sections .links-container .link').mouseover(function(){
+                $('.sections .linkscontainer').css('margin-top','26px');
+                $(this).animate({
+                    fontSize:'18px',
+                    fontWeight:700
+                },200);
+            });
+            $('.sections .links-container .link').mouseout(function(){
+                $('.sections .linkscontainer').css('margin-top','30px');
+                $(this).animate({
+                    fontSize:'16px',
+                    fontWeight:300
+                },200);
+            });
+
             $('#fullpage').fullpage({
-                anchors:['home-section','why-us-section','services-section','clients-section','ourworks-section','foot-section'],
+                anchors:['home-section','why-us-section','services-section','clients-section','foot-section'],
                 menu:'#menu',
                 animateAnchor:true,
                 recordHistory:false,
