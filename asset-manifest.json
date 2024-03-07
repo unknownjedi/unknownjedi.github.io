@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2217778.css",
+    "main.js": "/static/js/main.ef71c271.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/matrixFont.ttf": "/static/media/matrixFont.77b36b5eb15b0d99bd9a.ttf",
+    "index.html": "/index.html",
+    "main.e2217778.css.map": "/static/css/main.e2217778.css.map",
+    "main.ef71c271.js.map": "/static/js/main.ef71c271.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2217778.css",
+    "static/js/main.ef71c271.js"
+  ]
+}
