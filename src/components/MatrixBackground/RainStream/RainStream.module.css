@@ -1,0 +1,22 @@
+.verticalStream {
+    color: #20c20e;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    user-select: none;
+    text-shadow: 0px 0px 8px rgba(32, 194, 14, 0.8);
+    font-size: 25px;
+}
+
+.verticalStream:hover {
+    color: #fff;
+    text-shadow: 0px 0px 8px rgba(14, 194, 32, 0.8);
+}
+
+.rainChar{
+    margin-top: -6px;
+}
+
+.specialChar{
+    color: #0e3f09;
+}
