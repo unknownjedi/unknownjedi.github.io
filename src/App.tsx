@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import typedPortfolioData from './data/portfolioData';
 import MatrixBackground from './components/MatrixBackground';
 import Hero from './components/sections/Hero';

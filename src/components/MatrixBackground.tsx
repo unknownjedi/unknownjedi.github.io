@@ -11,7 +11,8 @@ const MatrixBackground: React.FC = () => {
       drops: number[],
       characters: string,
       fontSize: number,
-      columns: number
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      _columns: number
     ) => {
       ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);

@@ -24,7 +24,7 @@ const Icon: React.FC<IconProps> = ({ path, size = 24, className }) => (
 );
 
 // Define props for specific icons (optional, mainly for consistency if needed)
-type SpecificIconProps = Omit<IconProps, 'path'>;
+export type SpecificIconProps = Omit<IconProps, 'path'>;
 
 const Mail: React.FC<SpecificIconProps> = (props) => (
   <Icon

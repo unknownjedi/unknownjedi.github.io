@@ -1,9 +1,10 @@
 import React from 'react';
+import { SpecificIconProps } from './icons';
 
 interface SectionProps {
   id: string;
   title: string;
-  icon: React.ReactElement;
+  icon: React.ReactElement<SpecificIconProps>;
   children: React.ReactNode;
 }
 
@@ -16,9 +17,9 @@ const Section: React.FC<SectionProps> = ({ id, title, icon, children }) => (
       <div className="flex items-center mb-12">
         {React.isValidElement(icon)
           ? React.cloneElement(icon, {
-              size: 32,
-              className: 'text-green-400 mr-4',
-            })
+            size: 32,
+            className: 'text-green-400 mr-4',
+          })
           : null}
         <h2
           className="text-3xl md:text-4xl font-bold text-green-400"
